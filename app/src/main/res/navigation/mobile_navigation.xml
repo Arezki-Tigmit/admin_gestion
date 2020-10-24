@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gestion_com.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_nav_gallery"-->
+<!--            app:destination="@id/nav_gallery" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_nav_slideshow2"-->
+<!--            app:destination="@id/nav_slideshow" />-->
+        <action
+            android:id="@+id/action_nav_home_to_nav_catalogue"
+            app:destination="@id/nav_catalogue" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_client"
+            app:destination="@id/nav_client" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_organisme"
+            app:destination="@id/nav_organisme" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_commande"
+            app:destination="@id/nav_commande" />
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.example.gestion_com.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.gestion_com.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+    <fragment
+        android:id="@+id/nav_catalogue"
+        android:name="com.example.gestion_com.ui.catal.Catalogue_clientFragment"
+        android:label="@string/catalogue"
+        tools:layout="@layout/fragment_catalogue_client" />
+    <fragment
+        android:id="@+id/nav_commande"
+        android:name="com.example.gestion_com.ui.commandes.CommandesFragment"
+        android:label="@string/commande"
+        tools:layout="@layout/fragment_commandes" />
+    <fragment
+        android:id="@+id/nav_client"
+        android:name="com.example.gestion_com.ui.info_client.Info_clientFragment"
+        android:label="@string/client"
+        tools:layout="@layout/fragment_list_client" />
+    <fragment
+        android:id="@+id/nav_organisme"
+        android:name="com.example.gestion_com.ui.info_org.Info_orgFragment"
+        android:label="@string/organisme"
+        tools:layout="@layout/fragment_info_org" />
+
+
+
+
+</navigation>
