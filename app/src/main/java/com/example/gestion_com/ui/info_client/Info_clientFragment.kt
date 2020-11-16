@@ -1,10 +1,9 @@
 package com.example.gestion_com.ui.info_client
 
 import android.os.Bundle
+import android.view.*
+import android.widget.Toast
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import com.example.gestion_com.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -56,5 +55,22 @@ class Info_clientFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.info_client_menu, menu)
+
+        super.onCreateOptionsMenu(menu, inflater)
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val id =item.itemId
+        if (id == R.id.action_supprimer) {
+            Toast.makeText(activity, "Suppression réussie", Toast.LENGTH_LONG).show()
+        }
+        if (id == R.id.action_reserver) {
+            Toast.makeText(activity, "Résérvations", Toast.LENGTH_LONG).show()
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 }

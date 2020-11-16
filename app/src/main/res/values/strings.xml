@@ -27,6 +27,24 @@
     <string name="login_info">Administrateur</string>
     <string name="action_info">Infos</string>
     <string name="sing_in">Sing-in</string>
+    <string name="Titre">Titre :</string>
+    <string name="categorie">Catégorie :</string>
+    <string name="stock">Stock :</string>
+    <string name="prix">Prix :</string>
+    <string name="description">Déscriptoin :</string>
+    <string name="Login_User">Adminidtrateur</string>
+    <string name="Titre_produit">Titre du produit : </string>
+    <string name="date_com">Date de commande : </string>
+    <string name="date_exp">Date d\'expiration : </string>
+    <string name="quantite">Quantité : </string>
+    <string name="quantite_totale">Quantité totale : </string>
+    <string name="modifier">Modifier</string>
+    <string name="retour">Retour</string>
+    <string name="accueil">Accueil</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="reserver">Résérvations</string>
+    <string name="nom">Nom :</string>
+    <string name="prenom">Prénom :</string>
 
 
 

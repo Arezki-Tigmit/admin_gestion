@@ -4,11 +4,206 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.detail_com.Detail_comFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/commandeLayout"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_20sdp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titre_prod"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/titre_produit"
+                android:text="@string/Titre_produit"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:id="@+id/titre_du_prod"-->
+<!--                android:text=""-->
+<!--                android:layout_marginTop="@dimen/_15sdp"-->
+<!--                android:textSize="@dimen/_18sdp"-->
+<!--                />-->
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/categ_comm_layout"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/categorie_commande"
+                android:text="@string/categorie"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:id="@+id/titre_du_prod"-->
+            <!--                android:text=""-->
+            <!--                android:layout_marginTop="@dimen/_15sdp"-->
+            <!--                android:textSize="@dimen/_18sdp"-->
+            <!--                />-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_com"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/date_commande"
+                android:text="@string/date_com"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:id="@+id/titre_du_prod"-->
+            <!--                android:text=""-->
+            <!--                android:layout_marginTop="@dimen/_15sdp"-->
+            <!--                android:textSize="@dimen/_18sdp"-->
+            <!--                />-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_exp_tayout"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/date_exp"
+                android:text="@string/date_exp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:id="@+id/titre_du_prod"-->
+            <!--                android:text=""-->
+            <!--                android:layout_marginTop="@dimen/_15sdp"-->
+            <!--                android:textSize="@dimen/_18sdp"-->
+            <!--                />-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qt_produit_layout"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/qt_produit"
+                android:text="@string/quantite"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:id="@+id/titre_du_prod"-->
+            <!--                android:text=""-->
+            <!--                android:layout_marginTop="@dimen/_15sdp"-->
+            <!--                android:textSize="@dimen/_18sdp"-->
+            <!--                />-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/qt_totale_layout"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/qt_totale"
+                android:text="@string/quantite_totale"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:id="@+id/titre_du_prod"-->
+            <!--                android:text=""-->
+            <!--                android:layout_marginTop="@dimen/_15sdp"-->
+            <!--                android:textSize="@dimen/_18sdp"-->
+            <!--                />-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_commande_layout">
+
+
+            <ImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:src="@drawable/ic_delivery_box"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/_75sdp"
+                android:layout_marginTop="@dimen/_50sdp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/boutton_detail_commande_layout">
+
+
+            <Button
+                android:id="@+id/valider_modif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/retour"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_marginLeft="300dp"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
 
 </FrameLayout>
+

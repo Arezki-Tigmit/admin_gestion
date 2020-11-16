@@ -28,7 +28,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/caddie_image"
+                    android:id="@+id/user_image"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -36,6 +36,14 @@
                     android:src="@drawable/ic_boss"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+<!--                <TextView-->
+<!--                    android:id="@+id/Login_User"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/Login_User"-->
+<!--                    android:textColor="#000"-->
+<!--                    android:textSize="@dimen/_20sdp" />-->
 
             </LinearLayout>
 
